@@ -1,0 +1,2 @@
+### This is a repository of CSS projects I've done
+## It needs to be noted that the designs in this repository are not mine, they are generally copied over from Figma and due credit is given to the authors.
