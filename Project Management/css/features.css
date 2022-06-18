@@ -1,0 +1,87 @@
+.features {
+    background-color: #191919;
+}
+
+.features__grid {
+    height: 50vh;
+    width: 70vw;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.features_head {
+    padding-top: 20vh;
+    margin-bottom: 10vh;
+
+    font-family: "Playfair Display", sans-serif;
+    color: #FFFFFF;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0.6;
+}
+
+.features__grid > div {
+    position: relative;
+}
+
+.features__grid > div  > div > p,  .features__grid > div  > div > span {
+    color: #FFFFFF;
+    font-family: Inter, sans-serif;
+    letter-spacing: 1.3;
+    line-height: 1.5;
+}
+
+.features__grid > div  > div > p {
+    opacity: 0.8;
+}
+
+.features__grid > div  > div > p {
+    font-size: 12px;
+}
+
+.features__grid > div  > div > span {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.features__grid > div {
+    width: 90%;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: left;
+    align-items: stretch;
+}
+
+.features__grid > div  > div > img {
+    width: 60px;
+    height: 60px;
+}
+
+.features__grid > div > div > img:nth-child(2n + 1) {
+    width: 50px;
+    height: 50px;
+}
+
+.features__grid > div > div > img:nth-child(2n + 0) {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 22px;
+    left: 10px;
+}
+
+.features__grid > div > div:nth-child(2n + 1) {
+    display: flex;
+    flex: 0 0 40%;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+}
+
+.features__grid > div > div:nth-child(2n + 0) {
+    flex: 0 0 60%;
+}
