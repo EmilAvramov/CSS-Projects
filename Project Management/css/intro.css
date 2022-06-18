@@ -1,0 +1,108 @@
+:root {
+    --clr-bck-white: #fff;
+    --clr-light-blk: #191919;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.head {
+    display: flex;
+    background-color: var(--clr-bck-white);
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.head__logo {
+    width: 64px;
+    height: 64px;
+}
+
+.top-nav__list {
+    list-style-type: none;
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.top-nav__list > li > a {
+    text-decoration: none;
+    font-family: Inter, sans-serif;
+    color: var(--clr-light-blk);
+    font-size: 16px;
+}
+
+.head__btn {
+    background-color: var(--clr-light-blk);
+    border-radius: 8px;
+    padding: 10px 24px;
+    color: var(--clr-bck-white);
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+}
+
+.intro {
+    background: rgb(147, 170, 193);
+    background: linear-gradient(
+        180deg,
+        rgba(147, 170, 193, 1) 9%,
+        rgba(213, 178, 210, 1) 24%,
+        rgba(192, 184, 214, 1) 44%,
+        rgba(187, 182, 219, 1) 51%,
+        rgba(148, 187, 233, 1) 68%
+    );
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.intro > button {
+    font-family: "Playfair Display", sans-serif;
+    padding: 5px 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+.intro__btn-1 {
+    background-color: var(--clr-light-blk);
+    color: var(--clr-bck-white)
+}
+
+.intro__btn-2 {
+    background-color: var(--clr-bck-white);
+    color: var(--clr-light-blk);
+}
+
+.intro > h1 {
+    flex: 1 0 100%;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.intro > p {
+    flex: 1 0 100%;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+}
+
+.intro__demo {
+    background-color: var(--clr-bck-white);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    height: 50%;
+    width: 45%;
+}
+
+.intro__demo > img {
+    border-radius: 8px;
+}
