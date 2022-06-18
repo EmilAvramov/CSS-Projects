@@ -1,0 +1,66 @@
+/* Main Area */
+
+.details {
+    height: 70vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Text Top */
+
+.details__head {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+
+    flex-basis: 100%;
+}
+
+/* Content Bottom */
+
+.details__benefits {
+    width: 70%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.benefits__header {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.benefits__text {
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    opacity: 0.4;
+}
+
+
+.benefits__first, .benefits__second, .benefits__third {
+    position: relative;
+}
+
+.benefits__first::after, .benefits__second::after, .benefits__third::after {
+    content: "";
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 0;
+
+    background-color: rgb(215, 139, 222);
+    opacity: 0.6;
+}

@@ -16,9 +16,10 @@ body {
 /* Navigation */
 
 .head {
-    display: flex;
     background-color: var(--clr-bck-white);
     height: 10vh;
+
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 200px;
@@ -31,25 +32,26 @@ body {
 
 .top-nav__list {
     list-style-type: none;
+
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
 .top-nav__list > li > a {
-    text-decoration: none;
     font-family: Inter, sans-serif;
-    color: var(--clr-light-blk);
     font-size: 16px;
+    text-decoration: none;
+    color: var(--clr-light-blk);
 }
 
 .head__btn {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    color: var(--clr-bck-white);
     background-color: var(--clr-light-blk);
     border-radius: 8px;
     padding: 10px 24px;
-    color: var(--clr-bck-white);
-    font-family: Inter, sans-serif;
-    font-size: 16px;
 }
 
 /* Landing Page Container */
@@ -62,6 +64,7 @@ body {
         rgba(224, 190, 227, 1) 89%
     );
     height: 90vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,12 +98,12 @@ body {
 }
 
 .intro > h1 {
-    flex: 1 0 100%;
     font-family: "Playfair Display", sans-serif;
     font-size: 42px;
     font-weight: bold;
-    flex: 0 0 60%;
     text-align: center;
+
+    flex: 0 0 60%;
 }
 
 .intro > p {
@@ -110,8 +113,9 @@ body {
 
 .intro__slogan-1 {
     font-size: 16px;
-    flex: 0 0 45%;
     padding-top: 10px;
+
+    flex: 0 0 45%;
 }
 
 /* Image Mid Part */
@@ -119,11 +123,13 @@ body {
 .intro__demo {
     background-color: var(--clr-bck-white);
     border-radius: 8px;
+
+    height: 50%;
+    width: 30%;
+
     display: flex;
     flex: 0 0 60%;
     justify-content: space-between;
-    height: 50%;
-    width: 30%;
 }
 
 .intro__demo > img {
@@ -133,21 +139,23 @@ body {
 /* Bottom Part */
 
 .intro__partners {
-    flex: 0 0 100%;
-    display: flex;
     height: 2vh;
     padding-bottom: 40px;
+
+    flex: 0 0 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 70px;
 }
 
 .intro__slogan-2 {
-    flex: 0 0 100%;
     color: var(--clr-shad-blk);
     font-style: italic;
     font-size: 12px;
     padding-top: 5vh;
+
+    flex: 0 0 100%;
 }
 
 .intro__partners > img {
