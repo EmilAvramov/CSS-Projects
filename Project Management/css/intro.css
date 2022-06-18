@@ -85,6 +85,8 @@ body {
 }
 
 .intro__btn-holder {
+    padding-bottom: 10px;
+
     flex: 1 0 100%;
     display: flex;
     justify-content: center;
@@ -106,6 +108,8 @@ body {
     font-size: 42px;
     font-weight: bold;
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
 
     flex: 0 0 60%;
 }
@@ -113,11 +117,13 @@ body {
 .intro > p {
     font-family: Inter, sans-serif;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .intro__slogan-1 {
     font-size: 16px;
     padding-top: 10px;
+    opacity: 0.9;
 
     flex: 0 0 45%;
 }
@@ -157,8 +163,8 @@ body {
     padding-top: 5vh;
 
     color: var(--clr-shad-blk);
-    font-style: italic;
     font-size: 12px;
+    opacity: 0.8;
 
     flex: 0 0 100%;
 }

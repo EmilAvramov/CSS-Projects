@@ -1,0 +1,141 @@
+/* Testemonials section */
+
+.testemonials {
+    margin-top: 30vh;
+    margin-bottom: 10vh;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Demo Request section */
+
+.request {
+    width: 100vw;
+    height: 70vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Container */
+
+.request__container {
+    width: 70%;
+    height: 65%;
+
+    background: rgb(242, 238, 253);
+    background: linear-gradient(
+        86deg,
+        rgba(242, 238, 253, 1) 9%,
+        rgba(225, 190, 252, 1) 89%
+    );
+    border-radius: 24px;
+
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+
+/* Sub-containers */
+
+.request__container > div:nth-child(1n + 0) {
+    flex: 1 0 30%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 80px;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.request__container > div:nth-child(2n + 0) {
+    flex: 1 0 50%;
+    height: 100%;
+}
+
+/* Container Elements */
+
+.request_head {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.request_btn {
+    font-weight: bold;
+    background-color: #FFFFFF;
+
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: none;
+}
+
+.request_list {
+    list-style-type: disc;
+    padding-left: 15px;
+}
+
+.request_list > li, .request_btn {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    color: #000000;
+    opacity: 0.7;
+    padding-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    width: 70vw;
+    height: 10vh;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Adjust distance */
+
+.footer__logo {
+    margin-right: 450px;
+}
+
+.footer__nav {
+    margin-right: 50px;
+}
+
+/* Bottom nav */
+
+.footer__nav > ul {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer__nav > ul > li {
+    display: inline-block;
+}
+
+.footer__nav a {
+    font-family: Inter, sans-serif;
+    color: #191919;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+/* Icons */
+
+.footer__nav i {
+    width: 20px;
+    height: 20px;
+}
